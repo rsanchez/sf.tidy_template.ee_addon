@@ -4,9 +4,13 @@ Finally we got a template_post_parse hook in EE, and you know what that means? T
 
 # 1, 2, 3 PARTY.
 
-0. Tweak the Tidy config.
-1. Put it in your third_party folder.
-2. Enable
+1. Tweak the Tidy config.
+2. Put it in your third_party folder.
+3. Enable
+4. (optional) Configure your [options](http://tidy.sourceforge.net/docs/quickref.html) in the extension settings
+5. (optional) Use the {tidy:options} tag:
+
+	`{tidy:options indent="yes" wrap="200"}`
 
 # Time spent on this
 
